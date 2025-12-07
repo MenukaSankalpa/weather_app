@@ -1,0 +1,27 @@
+lib/
+ ├─ main.dart
+ ├─ core/
+ │   ├─ theme/
+ │   │   └─ app_theme.dart
+ │   ├─ utils/
+ │   │   └─ constants.dart
+ │   └─ widgets/
+ │       └─ weather_card.dart
+ └─ features/
+     └─ weather/
+         ├─ data/
+         │   ├─ weather_api.dart
+         │   └─ models/
+         │       ├─ current_weather.dart
+         │       └─ forecast.dart
+         ├─ controllers/
+         │   └─ weather_provider.dart
+         └─ views/
+             ├─ home_screen.dart
+             ├─ forecast_screen.dart
+             ├─ favorites_screen.dart
+             ├─ alerts_screen.dart
+             └─ settings_screen.dart
+
+
+all files are updated
